@@ -79,3 +79,12 @@ plot(1:10)
 
 ```
 
+
+segunda sarasa seguida de chart
+
+```{r}
+
+plot(1:20)
+
+```
+
