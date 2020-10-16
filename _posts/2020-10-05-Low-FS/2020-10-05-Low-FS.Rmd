@@ -1,0 +1,68 @@
+---
+title: "Record Farmer Selling!"
+description: |
+  For someone outside Argentina that looks at prices and economics for new crop, it would not be surprising to find that farmers have already sold most of their crops. While it´s the case in countries such as Brazil and Paraguay, Argentina is the exception. Farmers dont seem to be responding to such incentives. Why? This is what we try to explain in this article.
+categories:
+  - Farmer Selling
+author:
+  - name: Pablo Figueroa 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: 10-09-2020
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+    
+draft: false
+preview: Images/Portada_6.jpg
+---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+```{css}
+.d-toc-header {
+  font-size: 1.5rem;
+}
+
+.d-toc {
+  font-size: 2.0rem
+}
+``` 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+
+library(knitr)
+
+```
+
+
+```{r load_data, include=FALSE}
+
+portada <- "Images/Portada_6.jpg"
+
+# img_01 <- "Images/Image_01.png"
+# img_02 <- "Images/Image_02.png"
+# img_03 <- "Images/Image_03.png"
+
+```
+
+```{r portada, message=FALSE, echo=FALSE,layout="l-body-outset", fig.width=6, fig.height=1.5}
+# include_graphics(portada)
+```
+
+## Highlights/Summary
+
+
+

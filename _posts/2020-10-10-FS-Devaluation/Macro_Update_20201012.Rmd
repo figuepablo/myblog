@@ -1,0 +1,99 @@
+---
+title: "Farmer Selling & Devaluation"
+description: |
+  Macro in ARG is very relevant at this stage when beyond fundamentals being very negative, we have no resources to extend the life cycle (before it was huge central bank reserves, public money available and then it was a change in government). Now is just another 3 more years of a populist government with no resources left.
+categories:
+  - Macro
+  - Farmer Selling
+author:
+  - name: Pablo Figueroa 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: 10-12-2020
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+    
+draft: false
+preview: Images/Portada.jpg
+---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+```{css}
+.d-toc-header {
+  font-size: 1.5rem;
+}
+
+.d-toc {
+  font-size: 2.0rem
+}
+``` 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+
+library(knitr)
+
+```
+
+
+```{r load_data, include=FALSE}
+
+portada <- "Images/Portada.jpg"
+
+img_01 <- "Images/Image_01.png"
+img_02 <- "Images/Image_02.png"
+img_03 <- "Images/Image_03.png"
+
+```
+
+```{r portada, message=FALSE, echo=FALSE,layout="l-body-outset", fig.width=6, fig.height=1.5}
+# include_graphics(portada)
+```
+
+## Highlights/Summary
+
+Arg Macro is key now in the context of a jammed farmer selling. The announcements made last week had little to no impact: FX spread jumped to +100% and central bank continued selling reserves, leaving net liquid reserves negative. Nevertheless, the government continues delaying the devaluation.
+
+My reading of the situation is that the economic situation itself, is not yet in a no-return point but it´s the political side which increases the chances of the worst-case scenario realizing. Argentina still has many reserves which could be used to reignite the economy and invest and the fact that a very pessimistic scenario is already priced-in makes many people think the adjustment has been done already. Conclusion is that we have reached a point in which politics are more relevant more than fundamental economic variables. It´s not that the economy itself is non-viable, the problem is that the fiscal/monetary policy goes in the opposite direction of the structural problems.
+Possible scenarios: while impossible to know what will happen and the timing, we do know that a devaluation is unavoidable, and the farmers won’t sell aggressively when it happens. See below the FS reaction during previous devaluation episodes. 
+1)	Most probable scenario is one of a devaluation and farmers picking up sales for a while (just selling what they didn’t sell before) and then going back to low selling mode again.
+2)	The best-case scenario is one in which the government devaluates the official FX to close the spread with the frame of a consistent fiscal and economic plan. In this case, farmers will slowly return to respond to market incentives. See below some notes of the case of 2002 devaluation and FS dynamics during that period.
+3)	Worst case scenario is one in which the government radicalizes and becomes even more aggressive and tries to force sales by other persecutory means. In this case, it´s certain that export flows will be interrupted like it was the case in 2008. 
+
+### MACRO:
+
+Free FX spiking (11% devaluation this week and third week in a role of higher FX) as CB continues selling reserves even with very tight currency controls.
+Sentiment has worsened and with this, rumors of all kinds are circulating: export tax changes, FX unfolding, government officials stepping out, etc. The government seems trapped between taking measures which were tried in the history and that yielded disastrous results and the mere hope of the situation resolving itself.
+Added to this, COVID cases are spreading and Argentina´s on the top 10 countries with most cases, testing continues to be very low with positivity rates at 60%.
+Opinion: Government is not showing willingness to solve structural problems (fiscal deficit and monetary overhang). On the contrary, all measures taken are aimed to avoid a devaluation. Their latest attempts were focused on incentivizing ARS demand through USD-linked bonds and on increasing USD inflows by lowering export taxes. While this might work in the short term and only to avoid an imminent devaluation, this is just a way for the government to take more debt. Within the context of a  no consistent economic plan, this a laugh now, cry tomorrow situation. Market will start sooner or later to price another crisis next year.
+They are aware that a devaluation will have large negative effects on the economic activity and therefore on social turmoil. In their view, the main variable driving economic growth is consumption, they see the problem as one of demand and not supply. Considering this we can also assume that they will continue expanding fiscal expenditure and stimulating demand, paying less attention to market sentiment and investment.
+During the past weeks, central bank reserves and private USD deposits continued falling to record low levels. For a while now many analysts have been warning of main nominal variables spiralizing (FX and inflation mainly). Impossible to know if this is the case now, but certainly this scenario is becoming more probable.
+
+
+```{r image_01, message=FALSE, echo=FALSE,layout="l-body-outset", fig.width=6, fig.height=1.5}
+include_graphics(img_01)
+```
+
+## How was FS during previous devaluations?
+
+Argentina it´s known among other things for its volatile currency. Devaluations were the response mechanism to solve a deficit in the current account but only in counted cases devaluations were followed by consistent fiscal and monetary policies. Therefore, subsequent devaluations were needed. 
+
+In the chart below the main 4 devaluation episodes over the past 20 years are highlighted. Red line depicts the de-seasonalized farmer selling as a % of crop and blue bars depict the monthly devaluation of the official FX. Conclusion is that there is no relationship between devaluations and farmers selling more than normal.
+
+```{r image_03, echo=FALSE,layout="l-body-outset"}
+include_graphics(img_03)
+```
+

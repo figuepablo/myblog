@@ -1,0 +1,78 @@
+[
+  {
+    "path": "posts/2020-10-10-FS-Devaluation/",
+    "title": "Farmer Selling & Devaluation",
+    "description": "Macro in ARG is very relevant at this stage when beyond fundamentals being very negative, we have no resources to extend the life cycle (before it was huge central bank reserves, public money available and then it was a change in government). Now is just another 3 more years of a populist government with no resources left.",
+    "author": [
+      {
+        "name": "Pablo Figueroa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-10-12",
+    "categories": [
+      "Macro",
+      "Farmer Selling"
+    ],
+    "contents": "\r\n\r\nContents\r\nHighlights/SummaryMACRO:\r\n\r\nHow was FS during previous devaluations?\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\n\r\n\r\n.d-toc-header {\r\n  font-size: 1.5rem;\r\n}\r\n\r\n.d-toc {\r\n  font-size: 2.0rem\r\n}\r\n\r\n\r\n\r\n\r\nHighlights/Summary\r\nArg Macro is key now in the context of a jammed farmer selling. The announcements made last week had little to no impact: FX spread jumped to +100% and central bank continued selling reserves, leaving net liquid reserves negative. Nevertheless, the government continues delaying the devaluation.\r\nMy reading of the situation is that the economic situation itself, is not yet in a no-return point but it´s the political side which increases the chances of the worst-case scenario realizing. Argentina still has many reserves which could be used to reignite the economy and invest and the fact that a very pessimistic scenario is already priced-in makes many people think the adjustment has been done already. Conclusion is that we have reached a point in which politics are more relevant more than fundamental economic variables. It´s not that the economy itself is non-viable, the problem is that the fiscal/monetary policy goes in the opposite direction of the structural problems. Possible scenarios: while impossible to know what will happen and the timing, we do know that a devaluation is unavoidable, and the farmers won’t sell aggressively when it happens. See below the FS reaction during previous devaluation episodes. 1) Most probable scenario is one of a devaluation and farmers picking up sales for a while (just selling what they didn’t sell before) and then going back to low selling mode again. 2) The best-case scenario is one in which the government devaluates the official FX to close the spread with the frame of a consistent fiscal and economic plan. In this case, farmers will slowly return to respond to market incentives. See below some notes of the case of 2002 devaluation and FS dynamics during that period. 3) Worst case scenario is one in which the government radicalizes and becomes even more aggressive and tries to force sales by other persecutory means. In this case, it´s certain that export flows will be interrupted like it was the case in 2008.\r\nMACRO:\r\nFree FX spiking (11% devaluation this week and third week in a role of higher FX) as CB continues selling reserves even with very tight currency controls. Sentiment has worsened and with this, rumors of all kinds are circulating: export tax changes, FX unfolding, government officials stepping out, etc. The government seems trapped between taking measures which were tried in the history and that yielded disastrous results and the mere hope of the situation resolving itself. Added to this, COVID cases are spreading and Argentina´s on the top 10 countries with most cases, testing continues to be very low with positivity rates at 60%. Opinion: Government is not showing willingness to solve structural problems (fiscal deficit and monetary overhang). On the contrary, all measures taken are aimed to avoid a devaluation. Their latest attempts were focused on incentivizing ARS demand through USD-linked bonds and on increasing USD inflows by lowering export taxes. While this might work in the short term and only to avoid an imminent devaluation, this is just a way for the government to take more debt. Within the context of a no consistent economic plan, this a laugh now, cry tomorrow situation. Market will start sooner or later to price another crisis next year. They are aware that a devaluation will have large negative effects on the economic activity and therefore on social turmoil. In their view, the main variable driving economic growth is consumption, they see the problem as one of demand and not supply. Considering this we can also assume that they will continue expanding fiscal expenditure and stimulating demand, paying less attention to market sentiment and investment. During the past weeks, central bank reserves and private USD deposits continued falling to record low levels. For a while now many analysts have been warning of main nominal variables spiralizing (FX and inflation mainly). Impossible to know if this is the case now, but certainly this scenario is becoming more probable.\r\n\r\n\r\n\r\nHow was FS during previous devaluations?\r\nArgentina it´s known among other things for its volatile currency. Devaluations were the response mechanism to solve a deficit in the current account but only in counted cases devaluations were followed by consistent fiscal and monetary policies. Therefore, subsequent devaluations were needed.\r\nIn the chart below the main 4 devaluation episodes over the past 20 years are highlighted. Red line depicts the de-seasonalized farmer selling as a % of crop and blue bars depict the monthly devaluation of the official FX. Conclusion is that there is no relationship between devaluations and farmers selling more than normal.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2020-10-10-FS-Devaluation/Images/Portada.jpg",
+    "last_modified": "2020-10-12T19:10:56-03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to My Blog",
+    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-10-12",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2020-10-12T23:32:35-03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2020-10-05-Low-FS/",
+    "title": "Record Farmer Selling!",
+    "description": "For someone outside Argentina that looks at prices and economics for new crop, it would not be surprising to find that farmers have already sold most of their crops. While it´s the case in countries such as Brazil and Paraguay, Argentina is the exception. Farmers dont seem to be responding to such incentives. Why? This is what we try to explain in this article.",
+    "author": [
+      {
+        "name": "Pablo Figueroa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-10-09",
+    "categories": [
+      "Farmer Selling"
+    ],
+    "contents": "\r\n\r\nContents\r\nHighlights/Summary\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\n\r\n\r\n.d-toc-header {\r\n  font-size: 1.5rem;\r\n}\r\n\r\n.d-toc {\r\n  font-size: 2.0rem\r\n}\r\n\r\n\r\n\r\n\r\nHighlights/Summary\r\n\r\n\r\n\r\n",
+    "preview": "posts/2020-10-05-Low-FS/Images/Portada_6.jpg",
+    "last_modified": "2020-10-12T22:11:39-03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2020-10-12-ENSO/",
+    "title": "La Niña is comming",
+    "description": "No news that a La Niña cicle has stablished and that it will last during the south hemisfere summer. While it´s known that yields tend to be below average, some questions arise: |\n* What can we expect based on recent history?\n* Which regions will suffer the most?",
+    "author": [
+      {
+        "name": "Pablo Figueroa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-10-09",
+    "categories": [
+      "Production",
+      "Climate"
+    ],
+    "contents": "\r\n\r\nContents\r\nHighlights/Summary\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\n\r\n\r\n.d-toc-header {\r\n  font-size: 1.5rem;\r\n}\r\n\r\n.d-toc {\r\n  font-size: 2.0rem\r\n}\r\n\r\n\r\n\r\n\r\nHighlights/Summary\r\nsarsasasasa\r\nsarasassasasa\r\n\r\n\r\nplot(1:10)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2020-10-12-ENSO/Images/Portada.png",
+    "last_modified": "2020-10-15T23:24:04-03:00",
+    "input_file": {}
+  }
+]

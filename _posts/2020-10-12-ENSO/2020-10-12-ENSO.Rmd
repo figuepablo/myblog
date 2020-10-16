@@ -1,0 +1,81 @@
+---
+title: "La Niña is comming"
+description: |
+  No news that a La Niña cicle has stablished and that it will last during the south hemisfere summer. While it´s known that yields tend to be below average, some questions arise: |
+  * What can we expect based on recent history?
+  * Which regions will suffer the most?
+categories:
+  - Production
+  - Climate
+author:
+  - name: Pablo Figueroa 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: 10-09-2020
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+    
+draft: false
+preview: Images/Portada.png
+---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+```{css}
+.d-toc-header {
+  font-size: 1.5rem;
+}
+
+.d-toc {
+  font-size: 2.0rem
+}
+``` 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+
+library(knitr)
+
+```
+
+
+```{r load_data, include=FALSE}
+
+portada <- "Images/Portada.png"
+
+# img_01 <- "C:/Users/figuerpa/Dropbox/Blog_distill/Agro_Blog/_posts/First_Post/Image_01.png"
+# img_02 <- "C:/Users/figuerpa/Dropbox/Blog_distill/Agro_Blog/_posts/First_Post/Image_02.png"
+# img_03 <- "C:/Users/figuerpa/Dropbox/Blog_distill/Agro_Blog/_posts/First_Post/Image_03.png"
+
+```
+
+```{r portada, message=FALSE, echo=FALSE,layout="l-body-outset", fig.width=6, fig.height=1.5}
+# include_graphics(portada)
+```
+
+## Highlights/Summary
+
+sarsasasasa
+
+sarasassasasa
+
+
+```{r}
+
+
+plot(1:10)
+
+```
+
