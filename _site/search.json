@@ -6,28 +6,28 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2020-10-16T02:12:08-03:00"
+      "last_modified": "2021-04-19T03:13:27-03:00"
     },
     {
       "path": "gallery.html",
       "title": "Gallery of featured posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2020-10-16T02:12:14-03:00"
+      "last_modified": "2021-04-19T03:13:28-03:00"
     },
     {
       "path": "index.html",
       "title": "My Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2020-10-16T02:12:18-03:00"
+      "last_modified": "2021-04-19T03:13:29-03:00"
     },
     {
       "path": "reports.html",
       "title": "Gallery of featured posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2020-10-16T02:12:22-03:00"
+      "last_modified": "2021-04-19T03:13:31-03:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -65,10 +65,10 @@ library(stringi)
 library(tidyverse)
 library(tinytex)
 
-files <- list.files(path ="../../../Pablo_y_Daniela/Venta/01_INPUTS/Fotos/", full.names = TRUE)
+files <- list.files(path ="Fotos/", full.names = TRUE)
 files_df <- as.data.frame(files)
 
-remove <- c("../../../Pablo_y_Daniela/Venta/01_INPUTS/Fotos/", ".JPEG", ".JPG")
+remove <- c("Fotos/", ".JPEG", ".JPG")
 files_df <- files_df %>% 
   mutate(item_name=str_remove_all(files, paste(remove, collapse = "|")))
 
