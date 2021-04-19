@@ -1,0 +1,96 @@
+---
+title: "Venta"
+description: |
+  Macro in ARG is very relevant at this stage when beyond fundamentals being very negative, we have no resources to extend the life cycle (before it was huge central bank reserves, public money available and then it was a change in government). Now is just another 3 more years of a populist government with no resources left.
+categories:
+  - Macro
+  - Farmer Selling
+author:
+  - name: Pablo Figueroa 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: 10-12-2020
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+    
+draft: false
+preview: Images/Portada.jpg
+---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+```{css}
+.d-toc-header {
+  font-size: 1.5rem;
+}
+
+.d-toc {
+  font-size: 2.0rem
+}
+``` 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+
+library(knitr)
+
+```
+
+Les dejamos una lista de las cosas que tenemos para vender. Si les interesa algo de esto nos recontra ayudan para los prepativos del viaje y comprar las cosas que necesitemos cuando nos vayamos. Los precios figuran debajo de las imagenes. Se los pusimos mirando MercadoLibre rapidamente asi que obviamente son charlables. Si les interesa algo nos pueden preguntar por whatsapp. 
+
+PABLO: 1167525006
+DANIELA: 1161172609
+
+
+
+
+```{r, echo=FALSE, include=FALSE}
+library(dplyr)
+library(readxl)
+library(xlsx)
+library(stringr)
+library(stringi)
+library(tidyverse)
+library(tinytex)
+
+files <- list.files(path ="../../../Pablo_y_Daniela/Venta/01_INPUTS/Fotos/", full.names = TRUE)
+files_df <- as.data.frame(files)
+
+remove <- c("../../../Pablo_y_Daniela/Venta/01_INPUTS/Fotos/", ".JPEG", ".JPG")
+files_df <- files_df %>% 
+  mutate(item_name=str_remove_all(files, paste(remove, collapse = "|")))
+
+write.xlsx(files_df,"../../../Pablo_y_Daniela/Venta/03_OUTPUT/item_list.xlsx",row.names = F)
+
+
+
+precios <- read.xlsx("../../../Pablo_y_Daniela/Venta/01_INPUTS/Precios.xlsx",sheetName = "Sheet1")
+
+prices_df <- files_df %>% left_join(precios %>% dplyr::select(-files),by="item_name") %>% arrange(item_name)
+
+```
+
+```{r, results='asis', echo=FALSE}
+
+
+for (i in c(1:nrow(prices_df))) {
+  cat('\n')
+  cat(paste0("![",prices_df$Price[i],"](", prices_df$files[i], ")\n"))  
+  cat("\n\n\\pagebreak\n")
+  }
+
+
+```
+
